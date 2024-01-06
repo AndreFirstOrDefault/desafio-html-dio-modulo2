@@ -1,0 +1,109 @@
+:body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #888888;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+.button{
+    left: 10;
+   top: 10;
+   height: 150px;
+   width: 200px;
+   align-items: center;
+   vertical-align: center;
+   background-color: cadetblue;
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: x-large;
+   
+}
+
+.banner {
+    width: 1000px;
+    height: 300px;
+    
+    
+  }
+  .divbanner{
+    width: 300px;
+    height: 200px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: small;
+    width: 950px;
+    height: 300px;
+    text-align: left;
+}
+.footer{
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table{
+    width: 950px;
+    height: 200px;
+    align-items: center;
+}
+.table thead{
+    color: blue;
+}
+
+table{
+    box-shadow: -10px -10px #888888;
+}
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: lightgreen;
+}
+table tbody tr:hover td{
+    
+    cursor: pointer;
+    
+}
+
+.dadosClinica{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 150px;
+    text-align: left;
+    
+}
+
+.formulario{
+    width: 250px;
+    height: 200px;
+    text-align: left;
+    
+}
+.content2{
+    flex:50%;
+    flex-direction: column-reverse;
+}
+.mapa{
+    flex-direction: column-reverse;
+    flex: 50%;
+}
